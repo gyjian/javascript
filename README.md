@@ -38,3 +38,9 @@ response.text().then(function(text){
    })
 
 })
+
+# canvas使用
+
+var canvas=document.querySelector('xxx');
+
+var ctx=canvas.getContext('2d');
