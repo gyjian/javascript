@@ -15,7 +15,7 @@
 
 # 从服务器获取数据
 
-传统的XMLHttpRequest方法
+#传统的XMLHttpRequest方法#
 
 var request =new XMLHttpRequest();
 
@@ -29,4 +29,12 @@ request.onload=function(){
 
 request.send();
 
+#现代的替代品#
 
+fetch(url).then(function(response){
+
+response.text().then(function(text){
+
+   })
+
+})
